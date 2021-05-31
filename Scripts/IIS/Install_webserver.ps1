@@ -1,0 +1,44 @@
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-CommonHttpFeatures -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpErrors -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpRedirect -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationDevelopment -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-NetFxExtensibility45 -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HealthAndDiagnostics -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpLogging -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-LoggingLibraries -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-RequestMonitor -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpTracing -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-Security -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-RequestFiltering -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-Performance -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerManagementTools -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-IIS6ManagementCompatibility -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-Metabase -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementConsole -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-BasicAuthentication -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WindowsAuthentication -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-StaticContent -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-DefaultDocument -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebSockets -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationInit -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIExtensions -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIFilter -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45 -all -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-NetFxExtensibility45 -all -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-CustomLogging -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionDynamic -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-IPSecurity -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-CertProvider -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-DigestAuthentication -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-IISCertificateMappingAuthentication -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ClientCertificateMappingAuthentication -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementScriptingTools -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-URLAuthorization -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementService -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WMICompatibility -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementScriptingTools -NoRestart
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-LegacySnapIn -NoRestart
